@@ -1,7 +1,7 @@
 {
   "name": "erc_20_token_sale",
   "version": "1.0.0",
-  "description": "ERC 20 based Token Sale",
+  "description": "ERC 20 based Token Sale ICO",
   "main": "truffle.js",
   "directories": {
     "test": "test"
@@ -10,7 +10,7 @@
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Theodore Ferguson",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
