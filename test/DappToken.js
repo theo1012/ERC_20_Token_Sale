@@ -4,7 +4,7 @@ const mlog = require("mocha-logger");
 contract('DappToken', function(accounts) {
     before(async () => {
         this.tokenInstance = await DappToken.deployed()
-    })
+    });
 
     it('initializes the contract with the correct values', async () => {
         assert.equal(await this.tokenInstance.name(), 'DApp Token', 'has the correct name');

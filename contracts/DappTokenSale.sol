@@ -4,7 +4,7 @@ pragma solidity >=0.4.22 <0.8.0;
 import "./DappToken.sol";
 
 contract DappTokenSale {
-    address admin;
+    address payable admin;
     DappToken public tokenContract;
     uint256 public tokenPrice;
     uint256 public tokensSold;
@@ -37,6 +37,6 @@ contract DappTokenSale {
 
         // UPDATE: Let's not destroy the contract here
         // Just transfer the balance to the admin
-        // admin.transfer(address(this).balance);
+        admin.transfer(address(this).balance);
     }
 }
