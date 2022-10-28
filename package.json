@@ -13,6 +13,7 @@
   "author": "Theodore Ferguson",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "mocha-logger": "^1.0.8"
   }
 }
